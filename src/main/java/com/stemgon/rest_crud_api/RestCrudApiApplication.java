@@ -6,15 +6,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @SpringBootApplication
-@RequestMapping("/")
 public class RestCrudApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestCrudApiApplication.class, args);
 	}
 
-	@GetMapping("/hello")
-	public String sayHello(){
-		return "Hello There";
-	}
+
 }
